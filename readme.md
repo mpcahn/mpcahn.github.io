@@ -1,6 +1,6 @@
 # Matt Cahn's Portfolio
 
-[https://mpcahn.surge.sh/](https://mpcahn.surge.sh/)
+[https://mpcahn.github.io/](https://mpcahn.github.io/)
 
 ## Overview
 
