@@ -3,6 +3,6 @@ img {
   height: auto;
 }
 
-.top-buffer {
-    margin-top: 40px;
+.noWrap {
+  white-space: nowrap; 
 }
