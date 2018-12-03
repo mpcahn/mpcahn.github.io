@@ -1,6 +1,6 @@
 # Matt Cahn's Portfolio
 
-[https://mpcahn.github.io/](https://mpcahn.github.io/)
+[https://mpcahn.co/](https://mpcahn.co/)
 
 ## Overview
 
@@ -28,7 +28,4 @@ Includes:
 ![](img/about.png)
 
 ### Portfolio:
-![](img/portfolio.PNG)
-
-### Pricing:
-![](img/Pricing.PNG)
+![](img/portfolio.png)
