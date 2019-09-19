@@ -14,7 +14,7 @@ Includes:
 ## Technologies
 
 * [Bootstrap 4.0](https://getbootstrap.com/)
-* [https://mdbootstrap.com/](Material Design for Bootstrap 4)
+* [Material Design for Bootstrap 4](https://mdbootstrap.com/)
 
 ## Screenshots
 
