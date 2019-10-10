@@ -10,8 +10,8 @@
   <!-- Favicon Link -->
   <link href="/YOUR_PATH/favicon.ico" rel="icon" type="image/x-icon" />
   <!-- jquery -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <!-- bootstrap javascript -->
   <script src="js/bootstrap.js"></script>
   <!-- bootstrap css -->
@@ -21,8 +21,8 @@
   <!-- custom css -->
   <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
   <link rel="icon" href="img/briefcase.ico">
   <title>mpcahn portfolio</title>
@@ -31,21 +31,40 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Matthew Cahn</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="about.html">About</a>
+    <div class="d-md-flex d-block w-100">
+      <div class="collapse navbar-collapse mx-auto w-auto justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="navbar-brand" href="#">Matthew Cahn</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Portfolio <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="about.html">About</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
 
   <div class="container mt-3">
     <div class="row text-center text-muted mb-5">
+
+      <div class="col-md-4 col-sm-6 mb-3">
+        <div class="view overlay">
+          <img src="img/ffpo.png" alt="Foundation for Purposeful Orgonizations Screenshot">
+          <p>Educational React website with authentication.</p>
+          <a href="https://leadfrompurpose.org/" target="_blank">
+            <div class="mask flex-center rgba-red-strong">
+              <p class="white-text">View Site</p>
+            </div>
+          </a>
+        </div>
+      </div>
+
       <div class="col-md-4 col-sm-6 mb-3">
         <div class="view overlay">
           <img src="img/prosper.png" alt="Prosper Screenshot">
@@ -62,7 +81,8 @@
       <div class="col-md-4 col-sm-6 mb-3">
         <div class="view overlay">
           <img src="img/ethGeoCaching.jpg" alt="Ethereum GeoCaching">
-          <p>An Ethereum Dapp that records GeoCaching Information to the blockchain and renders that info on a Google Map.</p>
+          <p>An Ethereum Dapp that records GeoCaching Information to the blockchain and renders that info on a Google
+            Map.</p>
           <a href="https://github.com/mpcahn/BasicFrontEndTutorial" target="_blank">
             <div class="mask flex-center rgba-red-strong">
               <p class="white-text">View on Github</p>
@@ -76,18 +96,6 @@
           <img src="img/popMeetup.png" alt="Popular Meetups Screenshot">
           <p>Find the most popular meetup events near your zip code.</p>
           <a href="https://github.com/mpcahn/popMeetup" target="_blank">
-            <div class="mask flex-center rgba-red-strong">
-              <p class="white-text">View on Github</p>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <div class="col-md-4 col-sm-6 mb-3">
-        <div class="view overlay">
-          <img src="img/carInsuranceMVC.png" alt="Car Insurance Screenshot">
-          <p>Car insurance quote exercise using ASP.NET</p>
-          <a href="https://github.com/mpcahn/CarInsuranceMVC" target="_blank">
             <div class="mask flex-center rgba-red-strong">
               <p class="white-text">View on Github</p>
             </div>
@@ -178,7 +186,8 @@
               github.com/mpcahn</a></p>
         </div>
         <div class="col col-lg col-md-6 col-sm-12 text-muted">
-          <p><a href="https://www.linkedin.com/in/mpcahn/" class="text-muted noWrap" target="_blank"><i class="fab fa-linkedin"></i>
+          <p><a href="https://www.linkedin.com/in/mpcahn/" class="text-muted noWrap" target="_blank"><i
+                class="fab fa-linkedin"></i>
               linkedin.com/in/mpcahn</a></p>
         </div>
         <div class="col col-lg col-md-6 col-sm-12 text-muted noWrap">
@@ -188,4 +197,5 @@
     </div>
   </div>
 </footer>
+
 </html>
