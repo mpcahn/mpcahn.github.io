@@ -18,8 +18,10 @@ Includes:
 
 ## Screenshots
 
+### Portfolio:
+![](img/portfolio.png)
+
 ### About:
 ![](img/about.png)
 
-### Portfolio:
-![](img/portfolio.png)
+
