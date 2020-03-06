@@ -22,4 +22,4 @@ Includes:
 ![](img/about.png)
 
 ### Portfolio:
-![](img/portfolio.PNG)
+![](img/portfolio.png)
